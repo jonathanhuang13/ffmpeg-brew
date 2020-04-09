@@ -1,4 +1,4 @@
-class FfmpegSkyzyx < Formula
+class FfmpegJonathan < Formula
   desc "Play, record, convert, and stream audio and video"
   homepage "https://ffmpeg.org/"
   url "https://ffmpeg.org/releases/ffmpeg-4.2.2.tar.xz"
@@ -269,7 +269,7 @@ class FfmpegSkyzyx < Formula
       --enable-small
       --enable-version3
       --enable-videotoolbox
-      --extra-version=skyzyx
+      --extra-version=jonathan
       --cc=#{ENV.cc}
       --host-cflags="#{ENV.cflags.strip}"
     ]
