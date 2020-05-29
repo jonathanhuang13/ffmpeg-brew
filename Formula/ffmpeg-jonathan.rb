@@ -150,6 +150,7 @@ class FfmpegJonathan < Formula
       --enable-demuxer=h264
       --enable-demuxer=hevc
       --enable-demuxer=hls
+      --enable-demuxer=-live_flv
       --enable-demuxer=m4v
       --enable-demuxer=matroska
       --enable-demuxer=mov
@@ -263,6 +264,8 @@ class FfmpegJonathan < Formula
       --enable-muxer=webm_dash_manifest
       --enable-muxer=webp
       --enable-muxer=webvtt
+      --enable-protocol=rtmp
+      --enable-protocol=libsrt
       --enable-nonfree
       --enable-pthreads
       --enable-shared
