@@ -12,6 +12,7 @@ View all the enabled settings in `Formula/ffmpeg-jonathan.rb`.
 
 Install via URL (you won't receive updates):
 ```
-brew install https://raw.githubusercontent.com/jonathanhuang13/ffmpeg-brew/master/Formula/ffmpeg-jonathan.rb
+brew tap jonathanhuang13/ffmpeg
+brew install ffmpeg-jonathan
 brew link --overwrite ffmpeg-jonathan
 ```
